@@ -1,0 +1,73 @@
+/* ヘッダー */
+.logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+.logo_img {
+    max-width: 222px;
+    height: auto;
+}
+
+/* メイン */
+.new_recipe {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* タイトル */
+.recipe_icon {
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.recipe_title_img {
+    max-width: 10px;
+    height: auto;
+}
+.article_title {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #d7a98c;
+    margin-bottom: 30px;
+}
+.article_title h3 {
+    font-weight: bold;
+    color: #583822;
+}
+
+/* 新着レシピ */
+.recipes_ol li {
+    text-align: center;
+}  
+.recipes_span {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.recipes_ol {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.recipes_ol a {
+    display: block;
+    margin: 0 20px;
+}
+.recipes_img {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+}
+.modal_img {
+    width: 540px;
+    height: 405px;
+    object-fit: cover;
+}
+
+/* フッター */
+.footer_area {
+    text-align: center;
+    border-top: 1px solid #d3d3d3;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}

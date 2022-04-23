@@ -1,0 +1,30 @@
+/*デフォルトでモーダルを表示しないように設定*/
+#modal1,
+#modal2,
+#modal3,
+#modal4 {
+    display: none;
+}
+
+.share_button {
+    border: 1px solid black;
+    padding: 5px;
+}
+.dish_information {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*モーダルの幅及び画像のサイズ設定*/
+.modaal-container {
+    width: 600px;
+}
+.modaal-container img {
+    width: 100%;
+}
+/*シェアボタンのサイズ調整*/
+.modaal-container .share_button img {
+    max-width: 18px;
+    height: auto;
+    margin-bottom: 3px;
+}

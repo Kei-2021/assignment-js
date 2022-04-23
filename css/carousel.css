@@ -1,0 +1,26 @@
+.carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+.carousel img {
+    width: 100%;
+}
+/*画像に合わせてカルーセの高さを調節*/
+.slick-slide {
+    height: auto;
+}
+/*背景の色に合わせて前後の矢印の色を調整*/
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+/*矢印の位置を指定*/
+.slick-arrow {
+    z-index:5;
+}
+.slick-prev {
+    left: 25px;
+}
+.slick-next {
+    right: 25px;
+}
